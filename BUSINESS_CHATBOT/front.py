@@ -18,7 +18,7 @@ for message in st.session_state.messages:
 
 if st.session_state.first_Message:
     with st.chat_message("assistant"):
-        st.markdown("Hola! Soy Elena, tu asistente virtual. ¿En qué puedo ayudarte hoy?")
+        st.markdown("Hola! Soy Ericsin, tu asistente virtual. ¿En qué puedo ayudarte hoy?")
         st.session_state.first_Message = False
         
    # st.session_state.messages.append({"role": "assistant", "content": "Hola! Soy Elena , tu asistente virtual. ¿En qué puedo ayudarte hoy?"})
